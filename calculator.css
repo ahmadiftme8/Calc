@@ -101,6 +101,8 @@ display: flex;
     align-items: center;
     gap: 1rem;
     flex-flow: column nowrap;
+    flex-wrap: nowrap;
+
     /* box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.636); */
     margin: 0;
     padding: 0;
@@ -171,9 +173,9 @@ button{
     font-size: 1.5rem;
     outline: none;
   color: #DAA06D;
-  padding: 1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border: 2px dashed #DAA06D;
   border-radius: 15px;
   background-color: #EADDCA;
